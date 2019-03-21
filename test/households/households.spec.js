@@ -33,6 +33,6 @@ describe('Household page', function() {
         await households.clickUserDropdown();
         //await expect(households.userItem.isDisplayed()).toBe(true);
         await households.clickUserDropdown();
-        await browser.sleep(3000);
+        await browser.sleep(4000);
     });
 });
